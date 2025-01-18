@@ -1,3 +1,8 @@
+
+<!-- you can think of an Agent Like an LLm which has access to tools it has perform actions..
+let say you as got and show all the customers... it has this ablity to get ther and fetch data
+from the DB
+ -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
