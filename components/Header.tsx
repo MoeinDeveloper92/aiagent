@@ -1,12 +1,11 @@
-import React, { useContext } from 'react';
+import React, { use } from 'react';
 import { Button } from './ui/button';
 import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 import { UserButton } from '@clerk/clerk-react';
 import { NavigationContext } from '@/lib/NavigationContext';
 const Header = () => {
-  const { setIsMobileNavOpen, isMobileNavOpen } = useContext(NavigationContext);
+  const { setIsMobileNavOpen, isMobileNavOpen } = use(NavigationContext);
 
- 
   return (
     <header className="border-b border-gray-200/50 bg-white/80 backdrop-blur-xl sticky top-0 z-50">
       <div className="flex items-center justify-between px-4 py-3">
